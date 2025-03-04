@@ -1,0 +1,75 @@
+export TW_DEFAULT_LANGUAGE="zh_CN"
+export LC_ALL="C"
+export ALLOW_MISSING_DEPENDENCIES=true
+
+echo -e "\x1b[91m OrangeFox Vars insert... \x1b[m"
+export OF_MAINTAINER=ymdzq
+export FOX_VERSION=$(date +%y.%m.%d)
+export FOX_VARIANT=G8
+
+export FOX_AB_DEVICE=1
+#export OF_USE_LZMA_COMPRESSION=1
+#export OF_USE_LZ4_COMPRESSION=1
+export FOX_REPLACE_TOOLBOX_GETPROP=1
+export FOX_USE_TAR_BINARY=1
+export FOX_USE_SED_BINARY=1
+export FOX_USE_LZ4_BINARY=1
+export FOX_USE_ZSTD_BINARY=1
+export FOX_USE_DATE_BINARY=1
+#export FOX_USE_BASH_SHELL=1
+export FOX_ASH_IS_BASH=1
+export OF_USE_MAGISKBOOT=0
+export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=0
+#export FOX_DISABLE_UPDATEZIP=1
+#export OF_SKIP_FBE_DECRYPTION=1
+export OF_NO_RELOAD_AFTER_DECRYPTION=1
+export OF_NO_TREBLE_COMPATIBILITY_CHECK=1
+export OF_USE_GREEN_LED=0
+#export OF_FLASHLIGHT_ENABLE=0
+#export OF_FL_PATH1=/sys/class/leds/led:torch_0
+#export OF_FL_PATH2=/sys/class/leds/led:torch_1
+
+export FOX_ENABLE_APP_MANAGER=1
+export FOX_USE_GREP_BINARY=1
+export FOX_USE_BUSYBOX_BINARY=1
+export FOX_USE_XZ_UTILS=1
+export FOX_USE_NANO_EDITOR=1
+
+export OF_FORCE_PREBUILT_KERNEL=1
+
+export OF_SKIP_DECRYPTED_ADOPTED_STORAGE=1
+export OF_ENABLE_LPTOOLS=1
+export OF_NO_ADDITIONAL_MIUI_PROPS_CHECK=1
+export OF_ENABLE_FS_COMPRESSION=1
+#f2fs support
+
+export OF_DISPLAY_FORMAT_FILESYSTEMS_DEBUG_INFO=1
+
+#export OF_FORCE_DATA_FORMAT_F2FS=1
+#f2fs version only
+
+# export FOX_RECOVERY_INSTALL_PARTITION="/dev/block/bootdevice/by-name/recovery"
+#export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/mapper/system"
+#export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
+# export FOX_RECOVERY_BOOT_PARTITION="/dev/block/bootdevice/by-name/boot"
+
+export OF_SCREEN_H=2340
+# export OF_STATUS_H=60
+# export OF_STATUS_INDENT_LEFT=48
+# export OF_STATUS_INDENT_RIGHT=48
+# export OF_HIDE_NOTCH=1
+export OF_CLOCK_POS=1
+export OF_ALLOW_DISABLE_NAVBAR=0
+
+export FOX_INSTALLER_DEBUG_MODE=1
+#export FOX_TARGET_DEVICES=
+export FOX_VANILLA_BUILD=1
+
+export FOX_BUGGED_AOSP_ARB_WORKAROUND="1546300800"; # Tuesday, January 1, 2019 12:00:00 AM GMT+00:00
+export OF_UNBIND_SDCARD_F2FS=1
+#format f2fs unmount sdcard automatic
+export OF_DEFAULT_TIMEZONE="TAIST-8;TAIDT"
+export OF_SUPPORT_VBMETA_AVB2_PATCHING=1
+export OF_OPTIONS_LIST_NUM=9
+
+echo -e "\x1b[91m OrangeFox Var inserted \x1b[m"
