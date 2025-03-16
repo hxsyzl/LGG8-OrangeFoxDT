@@ -1,0 +1,38 @@
+﻿2025-03-16T09:53:29.6224158Z ##[group]Run cd ${GITHUB_WORKSPACE}/OrangeFox/fox_12.1
+2025-03-16T09:53:29.6224534Z [36;1mcd ${GITHUB_WORKSPACE}/OrangeFox/fox_12.1[0m
+2025-03-16T09:53:29.6224783Z [36;1mset +e[0m
+2025-03-16T09:53:29.6224973Z [36;1msource build/envsetup.sh[0m
+2025-03-16T09:53:29.6225220Z [36;1mexport ALLOW_MISSING_DEPENDENCIES=true[0m
+2025-03-16T09:53:29.6225696Z [36;1mset -e[0m
+2025-03-16T09:53:29.6225951Z [36;1mlunch twrp_alphalm-eng && make clean && mka adbd bootimage[0m
+2025-03-16T09:53:29.6246772Z shell: /usr/bin/bash -e {0}
+2025-03-16T09:53:29.6247004Z env:
+2025-03-16T09:53:29.6247367Z   GITHUB_TOKEN: ***
+2025-03-16T09:53:29.6247602Z   COMMIT_ID: e0dbef8babe5d918fb0487d1f9d5459998f20462
+2025-03-16T09:53:29.6247869Z ##[endgroup]
+2025-03-16T09:53:29.7035119Z including device/lge/alphalm/vendorsetup.sh
+2025-03-16T09:53:29.7036119Z [91m OrangeFox Vars insert... [m
+2025-03-16T09:53:29.7048304Z [91m OrangeFox Var inserted [m
+2025-03-16T09:53:34.1028154Z 09:53:34 Build sandboxing disabled due to nsjail error.
+2025-03-16T09:53:34.2251108Z In file included from build/make/core/config.mk:313:
+2025-03-16T09:53:34.2251910Z In file included from build/make/core/envsetup.mk:312:
+2025-03-16T09:53:34.2253250Z [1mbuild/make/target/product/virtual_ab_ota.mk:21: [31merror: [0m[1m_nic.PRODUCTS.[[device/lge/alphalm/twrp_alphalm.mk]]: "vendor/lge/alphalm/alphalm-vendor.mk" does not exist.[0m
+2025-03-16T09:53:34.2260165Z 09:53:34 dumpvars failed with: exit status 1
+2025-03-16T09:53:34.5468702Z Device alphalm not found. Attempting to retrieve device repository from TeamWin Github (http://github.com/TeamWin).
+2025-03-16T09:53:34.5469598Z Repository for alphalm not found in the TeamWin Github repository list.
+2025-03-16T09:53:34.5470215Z If this is in error, you may need to manually add it to your .repo/local_manifests/roomservice.xml
+2025-03-16T09:53:34.8546048Z 09:53:34 Build sandboxing disabled due to nsjail error.
+2025-03-16T09:53:34.9400768Z In file included from build/make/core/config.mk:313:
+2025-03-16T09:53:34.9401395Z In file included from build/make/core/envsetup.mk:312:
+2025-03-16T09:53:34.9402999Z [1mbuild/make/target/product/virtual_ab_ota.mk:21: [31merror: [0m[1m_nic.PRODUCTS.[[device/lge/alphalm/twrp_alphalm.mk]]: "vendor/lge/alphalm/alphalm-vendor.mk" does not exist.[0m
+2025-03-16T09:53:34.9411021Z 09:53:34 dumpvars failed with: exit status 1
+2025-03-16T09:53:35.2834942Z 09:53:35 Build sandboxing disabled due to nsjail error.
+2025-03-16T09:53:35.3861936Z In file included from build/make/core/config.mk:313:
+2025-03-16T09:53:35.3863483Z In file included from build/make/core/envsetup.mk:312:
+2025-03-16T09:53:35.3864861Z [1mbuild/make/target/product/virtual_ab_ota.mk:21: [31merror: [0m[1m_nic.PRODUCTS.[[device/lge/alphalm/twrp_alphalm.mk]]: "vendor/lge/alphalm/alphalm-vendor.mk" does not exist.[0m
+2025-03-16T09:53:35.3871997Z 09:53:35 dumpvars failed with: exit status 1
+2025-03-16T09:53:35.3937904Z 
+2025-03-16T09:53:35.3938155Z ** Don't have a product spec for: 'twrp_alphalm'
+2025-03-16T09:53:35.3938607Z ** Do you have the right repo manifest?
+2025-03-16T09:53:35.3938837Z 
+2025-03-16T09:53:35.3960062Z ##[error]Process completed with exit code 1.
